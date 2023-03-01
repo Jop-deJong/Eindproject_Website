@@ -3,22 +3,35 @@
 .card2{
 display: flex;
 justify-content: space-evenly;
+padding-top: 150px;
+
 
 }
 
 .project {
     color: rgb(0, 0, 0);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    text-align: center;
-    font-size: 80px;
-    padding-top: 100px;
+    text-align: left;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-left: 10px;
   }
 
 
   .omschrijving {
     color: rgb(24, 164, 188);
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 100px;
+  }
 
+  .text{
+    margin-left: 50px;
+    padding-left: 10px;
+
+  }
+  .text2{
+    font-size: large; 
+    margin-left: 50px; 
+    width: 1000px;
   }
