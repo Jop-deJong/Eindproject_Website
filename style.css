@@ -35,20 +35,11 @@ padding-top: 150px;
     width: 1000px;
   }
 
-  .index{
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/Afbeeldingen/background.jpeg");
-  background-position: 50% 36.57%;
-}
+  
 
-
-.u-button-style[class*="u-border-"].u-border-no-right,
-[class*="u-border-"].u-border-no-right {
-  border-right-width: 0;
-  border-right-style: none;
-}
 
 .card3{
- margin-top: 80px;
+ margin-top: 90px;
 }
 
 .foto{
