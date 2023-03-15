@@ -25,7 +25,7 @@ padding-top: 150px;
   }
 
   .text{
-    margin-top: 250px;
+    margin-top: 80px;
     margin-left: 50px;
 
   }
@@ -57,7 +57,7 @@ padding-top: 150px;
    left: 50%;
    width: 442px;
    height: 154px;
-   margin-top: -50px; 
+   margin-top: -350px; 
    margin-left: -210px; 
   
   
@@ -123,6 +123,18 @@ padding-top: 150px;
   background-size: cover;
   margin-top: -150px;
  
+}
+
+.project_tekst {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 442px;
+   height: 154px;
+   margin-top: -50px; 
+   margin-left: -210px; 
+  
+  
 }
 
 .img_planning {
