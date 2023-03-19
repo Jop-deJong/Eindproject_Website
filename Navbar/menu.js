@@ -1,4 +1,4 @@
-fetch("menu.html") // Haal de in te laden component op
+fetch("/Navbar/menu.html") // Haal de in te laden component op
   .then(response => {   // Vorm deze om naar tekst.
     return response.text()
   })
