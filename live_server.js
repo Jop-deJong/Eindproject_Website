@@ -4,8 +4,9 @@ window.onload = function() {;
             data = JSON.parse(data);
             var massa = data["massa"]
             var vogels = data["vogels"]
-            $(".massa").text(`massa: ${massa}`)
-            $(".vogels").text(`vogels: ${vogels}`)
+            console.log(data)
+            $(".massa").text(`${massa} gram`)
+            $(".vogels").text(`${vogels}`)
         });
     }
 

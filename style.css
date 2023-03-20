@@ -55,7 +55,7 @@ padding-top: 150px;
   width: 300px;
   height: auto;
   margin-top: 150px; 
-  margin-left: 1100px;  
+  margin-left: 200px;  
   
   
 }
@@ -95,5 +95,33 @@ padding-top: 150px;
   height: auto;
   margin-top: 150px; 
   
+  
+}
+
+.massa{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50px;
+  font-size: 100px;
+  text-align: center;
+
+
+}
+
+.vogels{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100px;
+  margin-left: 50px;
+  text-align: center;
+
+
+}
+
+.live{
+  font-family: 'LEMON MILK';
+  font-size: 100px;
+  text-align: center;
+  background-color: rgb(120, 166, 206);
+  color: white;
+  margin-top: 100px;
   
 }

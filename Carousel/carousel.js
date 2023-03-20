@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
 function autoSlide() {
    setInterval(() => {
       slide(getItemActiveIndex() + 1);
-   }, 4500); // slide speed = 3s
+   }, 4000); // slide speed = 3s
 }
 
 function slide(toIndex) {
