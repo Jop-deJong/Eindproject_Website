@@ -52,10 +52,10 @@ padding-top: 150px;
 
 .weeg {
   position: absolute;
-   width: 300px;
-   height: auto;
-   margin-top: 150px; 
-   margin-left: 1100px;  
+  width: 300px;
+  height: auto;
+  margin-top: 150px; 
+  margin-left: 1100px;  
   
   
 }
@@ -70,3 +70,30 @@ padding-top: 150px;
   
 }
 
+.rpi {
+  position: absolute;
+   width: 53px;
+   height: auto;
+   margin-top: 63px; 
+   margin-left: 285px;
+  
+  
+}
+
+.py {
+  position: absolute;
+   width: 35px;
+   height: auto;
+   margin-top: 5px; 
+  
+  
+}
+
+.rpi_board {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  margin-top: 150px; 
+  
+  
+}
