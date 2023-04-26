@@ -135,3 +135,15 @@ padding-top: 150px;
   
   
 }
+
+.image2 {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 442px;
+   height: 154px;
+   margin-top: -350px; 
+   margin-left: -210px; 
+  
+  
+}
