@@ -1,6 +1,6 @@
 window.onload = function() {;
     function updateData() {
-        $.get( "https://nietvanziyaad.pythonanywhere.com/data", function( data ) {
+        $.get( "https://jopdejong.pythonanywhere.com/data", function( data ) {
             data = JSON.parse(data);
             var massa = data["massa"]
             var vogels = data["vogels"]
@@ -14,4 +14,4 @@ window.onload = function() {;
     setInterval(function() {
         updateData();
     }, 1000);
-} 
+}   
