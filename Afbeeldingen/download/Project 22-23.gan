@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-09-01" view-index="0" gantt-divider-location="564" resource-divider-location="300" version="2.8.11" locale="nl">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Naam" width="263" order="0"/>
+        <field id="tpd4" name="Begin datum" width="141" order="1"/>
+        <field id="tpd5" name="Eind datum" width="141" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Naam" width="210" order="0"/>
+        <field id="1" name="Standaard rol" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Begin en Einde Project" color="#8cb6ce" meeting="false" start="2022-09-26" duration="175" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="Programma" color="#8cb6ce" meeting="false" start="2022-09-01" duration="93" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+            <task id="7" name="Servo + teller maken" color="#8cb6ce" meeting="false" start="2022-10-03" duration="25" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[de servo voor de bijvuller uitproberen en werkend te krijgen met de rapsberry PI. 
+
+Een teller voor de vogel maken
+]]></notes>
+            </task>
+            <task id="8" name="Gewichtsensor + afstandsensor bak" color="#8cb6ce" meeting="false" start="2022-11-04" duration="47" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Gewicht van de voederbak meten met sensor. Als er te weinig voedsel is, wordt deze automatisch bijgevuld. 
+
+De bak die manueel bijgevuld moet worden, die meten we met een afstandssensor om te weten hoe vol die zit]]></notes>
+            </task>
+            <task id="9" name="Data op website + aantal vogels (pir sensor)" color="#8cb6ce" meeting="false" start="2023-01-09" duration="1" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[De data van het aantal  vogels live op de website krijgen. 
+
+Het aantal vogels tellen we met een pir sensor.
+
+De bak automatisch bijgevuld bijgevudld moet worden ]]></notes>
+            </task>
+            <task id="19" name="Samenvoegen Deelprogramma's" meeting="false" start="2023-01-09" duration="1" complete="0" expand="true"/>
+            <task id="60" name="Eindprogramma testen" color="#8cb6ce" meeting="false" start="2022-09-01" duration="1" complete="0" thirdDate="2022-09-01" thirdDate-constraint="0" expand="true"/>
+            <task id="59" name="Eindprogramma verbeteren" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="20" name="Website" meeting="false" start="2022-09-01" duration="93" complete="0" expand="true">
+            <task id="22" name="Onderzoek werking Bootstrap" color="#8cb6ce" meeting="false" start="2023-01-09" duration="1" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="55" name="Hoofdpagina maken" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            <task id="46" name="Navbar maken" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            <task id="47" name="Subpagina's maken" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            <task id="54" name="Website verbeteren" color="#8cb6ce" meeting="false" start="2022-09-01" duration="1" complete="0" thirdDate="2022-09-01" thirdDate-constraint="0" expand="true"/>
+            <task id="48" name="Opmaak" meeting="false" start="2022-09-01" duration="93" complete="0" expand="true">
+                <task id="49" name="Opmaak navagatiebar" color="#8cb6ce" meeting="false" start="2023-01-09" duration="1" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+                <task id="50" name="Opmaak Hoofdpagina" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+                <task id="51" name="Opmaak Subpagina's" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="28" name="Blog Website" color="#8cb6ce" meeting="false" start="2022-10-06" duration="68" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+            <task id="39" name="Week 1" color="#8cb6ce" meeting="false" start="2022-10-06" duration="1" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="Week 2" color="#8cb6ce" meeting="false" start="2022-10-17" duration="1" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Week 3" color="#8cb6ce" meeting="false" start="2023-01-09" duration="1" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="Week 4" meeting="false" start="2023-01-09" duration="1" complete="0" expand="true"/>
+            <task id="43" name="Week 5" meeting="false" start="2023-01-09" duration="1" complete="0" expand="true"/>
+            <task id="44" name="Week 6" meeting="false" start="2023-01-09" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="61" name="Project" color="#8cb6ce" meeting="false" start="2022-09-01" duration="1" complete="0" thirdDate="2022-09-01" thirdDate-constraint="0" expand="true">
+            <task id="68" name="Sensoren uittesten met raspberry pi" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            <task id="69" name="Ontwerp project realiseren" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            <task id="70" name="Testen alles samen" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            <task id="71" name="Eventuele verbeteringen" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="72" name="Presentatie" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true">
+            <task id="77" name="Voorbereiden" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            <task id="78" name="Powerpoint maken" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+            <task id="79" name="Presenteren project" meeting="false" start="2022-09-01" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
