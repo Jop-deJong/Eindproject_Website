@@ -4,6 +4,11 @@ window.onload = function() {;
             data = JSON.parse(data);
             var massa = data["massa"]
             var vogels = data["vogels"]
+
+            if (massa === undefined){massa = 0}
+            if (vogels === undefined){vogels = 0}
+
+
             console.log(data)
             $(".massa").text(`${massa} gram`)
             $(".vogels").text(`${vogels}`)
